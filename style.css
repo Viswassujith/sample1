@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.top,.bot,.home-bg,.content2
+{
+    background-color: #0d1128;
+}
+.top1,.top2
+{
+    display: flex;
+    
+}
+
+
+.navbar-toggler
+{
+
+    background-color: #ffffff!important;
+    margin-right: 20px!important;
+}
+.content1
+{
+    background-color: #fd5f00;
+}
+.apply
+{
+    margin-left: 150px;
+    background-color: #fd5f00;
+    border: 0px solid;
+    height: 40px;
+    width: 120px;
+
+}
+
+.icon1
+{
+    color: #fd5f00;
+}
+.navbar-nav
+{
+    text-indent: 20px;
+}
+.nav-link
+{
+    font-size: 15px;
+    color: antiquewhite!important;
+}
+.nav-link:hover
+{
+color: #fd5f00!important;
+}
+.home-img1
+{
+   background-image: url(images/pexels-pixabay-159866.jpg);
+   height: 100vh;
+   background-size: cover;
+   background-blend-mode: darken;
+   background-color:#ffa871;
+}
+.home-img2
+{
+   background-image: url(images/pexels-pixabay-289737.jpg);
+   height: 100vh;
+   background-size: cover;
+
+}
+.jumbotron h1
+{
+    margin-top: 150px;
+   color: aliceblue;
+   font-weight: bolder;
+
+
+}
+.jumbotron p
+{
+    color: aliceblue;
+}
+.jumbotron .btn
+{
+    background-color: #fd5f00;
+    color: aliceblue;
+
+
+}
+
+.icon-clr {
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color:#fd5f00;
+    border-radius: 50%;
+    padding: 13px;
+}
+
+.about-text
+{
+    font-size: 18px;
+}
+#about1
+{
+    background-image: url(images/pexels-pixabay-159740.jpg);
+    
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color:#863400;
+    color: antiquewhite;
+    background-attachment: fixed;
+}
+#about1 h6{
+    font-size: 18px;
+    line-height: 30px;
+}
+.teach-font
+{
+    color: #fd5f00;
+    font-weight: bolder;
+}
+#request
+{
+    background-image: url(images/pexels-christina-morillo-1181398.jpg);
+    
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: #fd8f4a;
+    color: antiquewhite;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.req1
+{
+    background: transparent!important;
+    border: none!important;
+    outline: none!important;
+    border-bottom: 3px solid #ffffff!important;
+    color: beige!important;
+}
+
+.req1[type="text"]::-webkit-input-placeholder
+{
+    color: beige;
+    font-size: larger;
+    
+}
+
+.req1 option{
+    
+    color: #0d1128!important;
+}
+.rounded-circle
+{
+    height: 150px;
+    width: 150px;
+}
+.blog-img
+{
+    height: 100%;
+    width: 100%;
+}
+.foot-img
+{
+    height: 100px;
+    width: 100px;
+}
+footer a{
+    color: antiquewhite;
+    text-decoration: none!important;
+
+}
+
+.links
+{
+    margin-left:40%;
+}
+.submit
+{
+    color: #fff !important;
+    background-color: #5d50c6!important;
+}
+
+.foot i
+{
+    padding: 10px;
+    background-color: rgb(203,76,31) ;
+    border-radius: 50%;
+}
+footer
+
+{
+    padding: 100px;
+}
+
+#side-home
+{
+    background-image: url(images/pexels-pixabay-159740.jpg);
+    
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color:#863400;
+    color: antiquewhite;
+    background-attachment: fixed;
+}
+#side-home a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* contact */
+
+.design {
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: 0.5s ease transform;
+    border: none;
+    border-bottom: 2px solid #e01313;
+    padding-left: 10px;
+
+
+
+}
+
+.cont{
+    background: transparent!important;
+    backdrop-filter: blur(5px); border-radius: 5px;
+    border: 2px solid white!important;
+}
+
+
+@media (max-width:778px) {
+
+    .teach1{
+        height: 600px;
+    }
+    .req{
+        padding-top: 150px;
+    }
+    .apply{
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width:425px)
+{
+    video{
+        width: 360px;}
+    .teach1{
+        height: 400px;
+        
+    }
+    footer{
+        padding: 40px;
+    }
+    .req{
+        padding-top: 0px;
+    }
+    .apply
+    {
+        margin-left: 0px!important;
+        
+    }
+    .top2{
+        margin-top: -60px;
+        margin-left: 220px;
+        
+    }
+    /* .top2 h6,.top1 h6{
+        font-size: 10px;
+    } */
+}
+@media(max-width:375px)
+{
+    video{
+        width: 350px;
+    }
+    .top2{
+        margin-top: -65px;
+        margin-left: 200px;
+        
+    }
+    .right2 h6{
+        font-size:small ;
+    }
+    .right1 h6{
+        font-size:small ;
+    }
+    .right1 h6{
+        font-size:small ;
+    }
+    .right2 h6{
+        font-size:small ;
+    }
+}
